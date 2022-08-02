@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD9AE8FD2899A43100A1FBFA /* NewsPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE8FC2899A43100A1FBFA /* NewsPageController.swift */; };
+		BD9AE8FF2899A44C00A1FBFA /* VolunteerPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE8FE2899A44C00A1FBFA /* VolunteerPageController.swift */; };
+		BD9AE9012899A4AA00A1FBFA /* DonationPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE9002899A4AA00A1FBFA /* DonationPageController.swift */; };
+		BD9AE9032899A4BB00A1FBFA /* ResourcesPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE9022899A4BB00A1FBFA /* ResourcesPageController.swift */; };
+		BD9AE9072899A4F200A1FBFA /* AdvocacyPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE9062899A4F200A1FBFA /* AdvocacyPageController.swift */; };
+		BD9AE9092899A56900A1FBFA /* AddArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE9082899A56900A1FBFA /* AddArticle.swift */; };
+		BD9AE90B2899C1F000A1FBFA /* SpinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE90A2899C1F000A1FBFA /* SpinViewController.swift */; };
+		BD9AE9112899C7F600A1FBFA /* MetadataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9AE9102899C7F500A1FBFA /* MetadataTableViewCell.swift */; };
 		BDE7DA22289990C200FA57A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7DA21289990C200FA57A3 /* AppDelegate.swift */; };
 		BDE7DA24289990C200FA57A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7DA23289990C200FA57A3 /* SceneDelegate.swift */; };
 		BDE7DA26289990C200FA57A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7DA25289990C200FA57A3 /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD9AE8FC2899A43100A1FBFA /* NewsPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageController.swift; sourceTree = "<group>"; };
+		BD9AE8FE2899A44C00A1FBFA /* VolunteerPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerPageController.swift; sourceTree = "<group>"; };
+		BD9AE9002899A4AA00A1FBFA /* DonationPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationPageController.swift; sourceTree = "<group>"; };
+		BD9AE9022899A4BB00A1FBFA /* ResourcesPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesPageController.swift; sourceTree = "<group>"; };
+		BD9AE9062899A4F200A1FBFA /* AdvocacyPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvocacyPageController.swift; sourceTree = "<group>"; };
+		BD9AE9082899A56900A1FBFA /* AddArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticle.swift; sourceTree = "<group>"; };
+		BD9AE90A2899C1F000A1FBFA /* SpinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinViewController.swift; sourceTree = "<group>"; };
+		BD9AE9102899C7F500A1FBFA /* MetadataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataTableViewCell.swift; sourceTree = "<group>"; };
 		BDE7DA1E289990C200FA57A3 /* testingscrollthing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testingscrollthing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE7DA21289990C200FA57A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE7DA23289990C200FA57A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +75,18 @@
 				BDE7DA21289990C200FA57A3 /* AppDelegate.swift */,
 				BDE7DA23289990C200FA57A3 /* SceneDelegate.swift */,
 				BDE7DA25289990C200FA57A3 /* ViewController.swift */,
+				BD9AE8FC2899A43100A1FBFA /* NewsPageController.swift */,
+				BD9AE8FE2899A44C00A1FBFA /* VolunteerPageController.swift */,
+				BD9AE9002899A4AA00A1FBFA /* DonationPageController.swift */,
+				BD9AE9022899A4BB00A1FBFA /* ResourcesPageController.swift */,
+				BD9AE9062899A4F200A1FBFA /* AdvocacyPageController.swift */,
 				BDE7DA27289990C200FA57A3 /* Main.storyboard */,
+				BD9AE9082899A56900A1FBFA /* AddArticle.swift */,
 				BDE7DA2A289990C500FA57A3 /* Assets.xcassets */,
 				BDE7DA2C289990C500FA57A3 /* LaunchScreen.storyboard */,
 				BDE7DA2F289990C500FA57A3 /* Info.plist */,
+				BD9AE90A2899C1F000A1FBFA /* SpinViewController.swift */,
+				BD9AE9102899C7F500A1FBFA /* MetadataTableViewCell.swift */,
 			);
 			path = testingscrollthing;
 			sourceTree = "<group>";
@@ -138,8 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9AE9112899C7F600A1FBFA /* MetadataTableViewCell.swift in Sources */,
 				BDE7DA26289990C200FA57A3 /* ViewController.swift in Sources */,
+				BD9AE8FD2899A43100A1FBFA /* NewsPageController.swift in Sources */,
+				BD9AE9072899A4F200A1FBFA /* AdvocacyPageController.swift in Sources */,
+				BD9AE9012899A4AA00A1FBFA /* DonationPageController.swift in Sources */,
+				BD9AE90B2899C1F000A1FBFA /* SpinViewController.swift in Sources */,
 				BDE7DA22289990C200FA57A3 /* AppDelegate.swift in Sources */,
+				BD9AE8FF2899A44C00A1FBFA /* VolunteerPageController.swift in Sources */,
+				BD9AE9092899A56900A1FBFA /* AddArticle.swift in Sources */,
+				BD9AE9032899A4BB00A1FBFA /* ResourcesPageController.swift in Sources */,
 				BDE7DA24289990C200FA57A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
