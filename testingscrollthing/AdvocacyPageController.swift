@@ -8,12 +8,35 @@
 import UIKit
 
 class AdvocacyPageController: UIViewController {
+
+    @IBOutlet weak var indent: UILabel!
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var submitButton: UIButton!
+    @IBOutlet weak var boxText: UILabel!
+    @IBOutlet weak var textField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        textField.isHidden = true
+        boxText.isHidden = true
+        submitButton.isHidden = true
+        indent.isHidden = true
     }
 
-
+    @IBAction func submitTapped(_ sender: Any) {
+        boxText.isHidden = false
+        if let newLabel = textField.text {
+            boxText.text = newLabel
+        }
+        textField.isHidden = true
+        submitButton.isHidden = true
+        indent.isHidden = false
+    }
+    @IBAction func buttonIsTapped(_ sender: Any) {
+        textField.isHidden = false
+        submitButton.isHidden = false
+        
+    }
+    
     /*
     // MARK: - Navigation
 
